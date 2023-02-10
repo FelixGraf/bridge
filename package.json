@@ -18,12 +18,12 @@
     "test:fixtures:webpack:dev": "TEST_WITH_WEBPACK=1 NUXT_TEST_DEV=true pnpm test:fixtures"
   },
   "devDependencies": {
-    "@nuxt/test-utils": "^3.1.2",
+    "@nuxt/test-utils": "^3.2.0",
     "@nuxtjs/eslint-config": "^12.0.0",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "eslint": "^8.33.0",
     "eslint-plugin-jsdoc": "^39.8.0",
-    "jiti": "^1.16.2",
+    "jiti": "^1.17.0",
     "vitest": "^0.28.4"
   },
   "resolutions": {
@@ -33,5 +33,5 @@
   "engines": {
     "node": "^14.16.0 || ^16.11.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
   },
-  "packageManager": "pnpm@7.26.3"
+  "packageManager": "pnpm@7.27.0"
 }
